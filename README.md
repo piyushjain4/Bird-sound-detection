@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### Reproducing Results
 The `final_pipeline/` directory contains the production-ready notebooks. 
-- **Kaggle**: Upload the notebooks and attach the BirdCLEF 2024 dataset.
+- **Kaggle**: Upload the notebooks.
 - **Local**: Run with `DEBUG_MODE=True` in the source scripts to verify logic without full data dependencies.
 
 ```bash
@@ -56,4 +56,3 @@ python scrubber.py
 ## 📚 References
 - **Perch**: [Google Research — Bird Vocalization Classification](https://github.com/google-research/perch)
 - **BirdNET**: [K. Lisa Yang Center for Conservation Bioacoustics](https://birdnet.cornell.edu/)
-- **BirdCLEF 2024**: [Kaggle Competition](https://www.kaggle.com/competitions/birdclef-2024)
